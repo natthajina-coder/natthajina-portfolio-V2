@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "NJ Portfolio — Technician Demo",
+  title: "Natthapol Jinavanich | Reliability & Maintenance Digital Transformation",
   description:
     "Portfolio of Natthapol (NJ) Jinavanich, a PMP-certified project and program manager with a mechanical engineering background and an MBA.",
   icons: {
