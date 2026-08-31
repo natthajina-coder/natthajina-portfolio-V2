@@ -2,6 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { MetricGrid } from "@/components/metric-grid";
 import type { Project } from "@/src/data/projects";
+import { assetUrl } from "@/lib/assets";
 
 export function ProjectHero({ project }: { project: Project }) {
   return (
@@ -30,7 +31,7 @@ export function ProjectHero({ project }: { project: Project }) {
       {project.detailImage && (
         <figure className="detail-project-photo">
           <Image
-            src={project.detailImage}
+            src={assetUrl(project.detailImage)}
             alt={`NJ on site at the ${project.title} project`}
             width={1536}
             height={2048}

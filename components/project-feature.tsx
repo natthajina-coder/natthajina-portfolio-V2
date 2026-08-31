@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+import { assetUrl } from "@/lib/assets";
 import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import type { Project } from "@/src/data/projects";
 
@@ -9,7 +10,7 @@ export function ProjectFeature({ project }: { project: Project }) {
       <Card className="project-card">
         <div className="project-card-media" aria-hidden="true">
           <Image
-            src={`/projects/Project${project.number}.jpg`}
+            src={assetUrl(`/projects/Project${project.number}.jpg`)}
             alt=""
             fill
             sizes="(max-width: 640px) 100vw, (max-width: 980px) 50vw, 33vw"

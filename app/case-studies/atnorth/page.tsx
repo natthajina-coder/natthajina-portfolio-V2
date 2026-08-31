@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { assetUrl } from "@/lib/assets";
 
 export const metadata = {
   title: "atNorth Data Center Development",
@@ -15,7 +16,7 @@ export default function AtNorthCaseStudyPage() {
       <p className="atnorth-case-study-meta">Denmark · USC Marshall MBA</p>
       <Image
         className="atnorth-case-study-image"
-        src="/case-studies/atnorth-site-visit.jpg"
+        src={assetUrl("/case-studies/atnorth-site-visit.jpg")}
         alt="NJ and the USC Marshall MBA project team at atNorth in Denmark"
         width={1800}
         height={1350}

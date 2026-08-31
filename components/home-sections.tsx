@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { ProjectFeature } from "@/components/project-feature";
 import { projects } from "@/src/data/projects";
+import { assetUrl } from "@/lib/assets";
 
 export function Hero() {
   return (
@@ -26,7 +27,7 @@ export function Hero() {
           <div className="hero-portrait-card" aria-hidden="true" />
           <Image
             className="hero-portrait-image"
-            src="/hero-portrait-full.png"
+            src={assetUrl("/hero-portrait-full.png")}
             alt="Natthapol (NJ) Jinavanich"
             fill
             sizes="(max-width: 640px) 430px, (max-width: 1024px) 560px, 42vw"
@@ -68,7 +69,7 @@ export function CaseStudy() {
       <div className="case-study-grid">
         <Image
           className="case-study-image"
-          src="/case-studies/atnorth-site-visit.jpg"
+          src={assetUrl("/case-studies/atnorth-site-visit.jpg")}
           alt="NJ and the USC Marshall MBA project team at atNorth in Denmark"
           width={1800}
           height={1350}
