@@ -337,13 +337,10 @@ export default function PortfolioDemo() {
   return (
     <main className="portfolio-page">
       <section className="hero-cover" aria-label="NJ portfolio introduction">
-        <Image
+        <img
           className="cover-image"
           src="/banner-industrial-blue-hour.png"
           alt="Industrial plant at blue hour"
-          fill
-          priority
-          sizes="100vw"
         />
       </section>
 
