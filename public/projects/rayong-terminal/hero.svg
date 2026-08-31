@@ -1,9 +1,0 @@
-<svg width="1600" height="1040" viewBox="0 0 1600 1040" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="1600" height="1040" fill="#D9D2C5"/>
-  <path d="M100 140H1500M100 900H1500M100 140V900M1500 140V900" stroke="#A9A194"/>
-  <path d="M100 720H1500M470 140V900M1120 140V900" stroke="#C2BAAD"/>
-  <rect x="470" y="610" width="650" height="110" stroke="#A4472C" stroke-width="3"/>
-  <text x="138" y="216" fill="#625E57" font-family="Arial, sans-serif" font-size="22" letter-spacing="5">PROJECT IMAGE PLACEHOLDER</text>
-  <text x="138" y="340" fill="#202728" font-family="Arial, sans-serif" font-size="74" font-weight="700">RAYONG TERMINAL</text>
-  <text x="138" y="426" fill="#202728" font-family="Arial, sans-serif" font-size="74" font-weight="700">EXPANSION</text>
-</svg>

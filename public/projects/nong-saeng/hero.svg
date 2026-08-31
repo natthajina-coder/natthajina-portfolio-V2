@@ -1,9 +1,0 @@
-<svg width="1600" height="1040" viewBox="0 0 1600 1040" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="1600" height="1040" fill="#B9C1BE"/>
-  <path d="M96 130H1504M96 910H1504M96 130V910M1504 130V910" stroke="#7E8B88"/>
-  <path d="M96 660H1504M630 130V910M1180 130V910" stroke="#98A39F"/>
-  <path d="M630 660L1180 390V660H630Z" stroke="#A4472C" stroke-width="3"/>
-  <text x="132" y="206" fill="#4D5A57" font-family="Arial, sans-serif" font-size="22" letter-spacing="5">PROJECT IMAGE PLACEHOLDER</text>
-  <text x="132" y="338" fill="#1D2525" font-family="Arial, sans-serif" font-size="78" font-weight="700">NONG SAENG</text>
-  <text x="132" y="428" fill="#1D2525" font-family="Arial, sans-serif" font-size="78" font-weight="700">1,600 MW CCGT</text>
-</svg>
