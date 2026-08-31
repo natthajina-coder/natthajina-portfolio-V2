@@ -339,7 +339,7 @@ export default function PortfolioDemo() {
       <section className="hero-cover" aria-label="NJ portfolio introduction">
         <img
           className="cover-image"
-          src="/banner-industrial-blue-hour.png"
+          src="/banner-portfolio-v2.png"
           alt="Industrial plant at blue hour"
         />
       </section>
