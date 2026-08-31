@@ -339,8 +339,8 @@ export default function PortfolioDemo() {
       <section className="hero-cover" aria-label="NJ portfolio introduction">
         <Image
           className="cover-image"
-          src="/banner-scg-complex.jpg"
-          alt="SCG Thailand industrial complex"
+          src="/banner-industrial-blue-hour.png"
+          alt="Industrial plant at blue hour"
           fill
           priority
           sizes="100vw"
